@@ -1,0 +1,39 @@
+.topDiv{
+    /* position: relative; */
+    width: 375px;
+    height: 124px;
+gap: 0px;
+opacity: 0px;
+background: #000000;
+}
+
+.logoDiv{
+    position: absolute;
+    width: 327px;
+height: 52.44px;
+top: 36px;
+left: 24px;
+gap: 12px;
+border: 1px solid white;
+}
+.topLogo{
+    margin: auto;
+    width: 68.66px;
+    height: 28.44px;
+    border: 1px solid white;
+}
+.topText{
+    margin: auto;
+    /* position: absolute;
+    bottom: 0; */
+    width: 68px;
+height: 12px;
+font-family: Inter;
+font-size: 10px;
+font-weight: 500;
+line-height: 12.1px;
+letter-spacing: 2.231907844543457px;
+text-align: left;
+color: #FFFFFF;
+text-transform: uppercase;
+}
