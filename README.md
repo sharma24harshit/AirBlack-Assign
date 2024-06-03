@@ -5,4 +5,4 @@
 ## Deployed Links
 
 - **Netlify:** <a href="https://airblack2024.netlify.app" target="_blank">https://airblack2024.netlify.app</a>
-- **Vercel:** <a href="https://air-black-assign-g32mne407-sharma24harshits-projects.vercel.app" target="_blank">https://air-black-assign-g32mne407-sharma24harshits-projects.vercel.app</a>
+- **Vercel:** <a href="https://air-black-assign-iulfg4660-sharma24harshits-projects.vercel.app" target="_blank">https://air-black-assign-iulfg4660-sharma24harshits-projects.vercel.app</a>
