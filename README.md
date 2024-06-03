@@ -4,5 +4,5 @@ This project is built using React.
 
 ## Deployed Links
 
-- **Netlify:** [Your Netlify Deployment Link](#)
-- **Vercel:** [Your Vercel Deployment Link](#)
+- **Netlify:** [https://airblack2024.netlify.app](#)
+- **Vercel:** [https://air-black-assign-g32mne407-sharma24harshits-projects.vercel.app/](#)
