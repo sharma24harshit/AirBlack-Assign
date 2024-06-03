@@ -35,6 +35,3 @@ const Certificate = () => {
 }
 
 export default Certificate
-
-
-// import this font family "FONTSPRING DEMO - Roca One Rg"

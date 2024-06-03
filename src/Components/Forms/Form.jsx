@@ -15,9 +15,14 @@ const Form = () => {
           <div className='phone-input-div'>
             <label>*Enter your WhatsApp Number</label>
             <div className='phone-inputs'>
-              <select className='country-code-input'>
+              <input type="text" className='country-code-input' value="+91" disabled={true}/>
+              <svg width="11" height="8" viewBox="0 0 11 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.8932 0.400024H9.88873C9.82043 0.400024 9.75614 0.433507 9.71596 0.488417L5.91105 5.73306L2.10614 0.488417C2.06596 0.433507 2.00167 0.400024 1.93337 0.400024H0.928907C0.841853 0.400024 0.79096 0.499132 0.841853 0.570114L5.56417 7.08038C5.7356 7.3161 6.0865 7.3161 6.25659 7.08038L10.9789 0.570114C11.0311 0.499132 10.9802 0.400024 10.8932 0.400024Z" fill="black" fill-opacity="0.25"/>
+</svg>
+
+              {/* <select className='country-code-input'>
                 <option value="+91">+91</option>
-              </select>
+              </select> */}
               <input type="text" className='mobileNo-input' placeholder='Eg. 0000000000' />
             </div>
           </div>

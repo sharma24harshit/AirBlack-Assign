@@ -131,7 +131,179 @@
 
 /* img css end */
 
+.top-logo-container {
+    /* border: 1px solid white; */
+    width: 68.66px;
+    height: 28.44px;
+    position: relative;
+    color: #F56563;
+}
+
+.logo-svg {
+    position: absolute;
+    left: 0%;
+    right: 58.64%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/*AIRBLACK letter*/
+.char-airBlack-a {
+    position: absolute;
+    width: 3.92px;
+    height: 3.82px;
+    top: 4.32px;
+    left: 32.48px;
+}
+
+.char-airBlack-dot {
+    position: absolute;
+    width: 3.06px;
+    height: 2px;
+    top: 1.82px;
+    left: 36.47px;
+}
+
+.char-airBlack-i {
+    position: absolute;
+    width: 2.8px;
+    height: 3.67px;
+    top: 4.39px;
+    left: 36.58px;
+}
+
+.char-airBlack-r {
+    position: absolute;
+    width: 2.8px;
+    height: 3.76px;
+    top: 4.29px;
+    left: 39.61px;
+}
+
+.char-airBlack-b {
+    position: absolute;
+    width: 3.91px;
+    height: 5.25px;
+    top: 2.87px;
+    left: 43.06px;
+}
+
+.char-airBlack-l {
+    position: absolute;
+    width: 0.82px;
+    height: 5.19px;
+    top: 2.87px;
+    left: 47.91px;
+}
+
+.char-airBlack-a2 {
+    position: absolute;
+    width: 3.92px;
+    height: 3.84px;
+    top: 4.32px;
+    left: 49.66px;
+}
+
+.char-airBlack-c {
+    position: absolute;
+    width: 3.38px;
+    height: 3.85px;
+    top: 4.27px;
+    left: 54.54px;
+}
+
+.char-airBlack-k {
+    position: absolute;
+    width: 3.4px;
+    height: 5.16px;
+    top: 2.87px;
+    left: 58px;
+}
+
+/* CLUB letter */
+.letter-c {
+    position: absolute;
+    width: 5px;
+    height: 5.53px;
+    top: 20.34px;
+    left: 32.46px;
+}
+
+.letter-l {
+    position: absolute;
+    width: 1.4px;
+    height: 7.46px;
+    top: 19px;
+    left: 38.38px;
+}
+
+.letter-club-u {
+    position: absolute;
+    width: 5.27px;
+    height: 5.47px;
+    top: 20.46px;
+    left: 41.07px;
+}
+
+.letter-club-b {
+    position: absolute;
+    width: 5.71px;
+    height: 7.63px;
+    top: 19px;
+    left: 47.79px;
+}
+
+/* Beauty letter */
+.letter-b {
+    position: absolute;
+    width: 5.72px;
+    height: 7.59px;
+    top: 9.34px;
+    left: 32.52px;
+}
+
+.letter-e {
+    position: absolute;
+    width: 5.57px;
+    height: 5.57px;
+    top: 11.41px;
+    left: 38.97px;
+}
+
+.letter-a {
+    position: absolute;
+    width: 5.71px;
+    height: 5.53px;
+    top: 11.38px;
+    left: 45.24px;
+}
+
+.letter-u {
+    position: absolute;
+    width: 5.21px;
+    height: 5.39px;
+    top: 11.53px;
+    left: 52.25px;
+}
+
+.letter-t {
+    position: absolute;
+    width: 4px;
+    height: 6.8px;
+    top: 10.11px;
+    left: 58.53px;
+}
+
+.letter-y {
+    position: absolute;
+    width: 5.82px;
+    height: 7.7px;
+    top: 11.51px;
+    left: 62.84px;
+}
+
 .top-logo-text-box {
+    /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -145,9 +317,14 @@
 }
 
 .top-logo-text-box>p {
+    /* border: 1px solid white; */
+    border: 1;
+    position: absolute;
+    left: 40%;
+    bottom: -10px;
     width: 68px;
     height: 12px;
-    font-family: 'Inter';
+    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 10px;

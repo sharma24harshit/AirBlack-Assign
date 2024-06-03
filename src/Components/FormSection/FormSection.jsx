@@ -78,3 +78,5 @@ export default FormSection
 
 //Professional Online Makeup Course text is not wrapped properly
 // Certification Programme text font is 1px less
+
+

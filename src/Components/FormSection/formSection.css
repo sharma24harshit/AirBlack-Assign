@@ -1,7 +1,7 @@
 .mainHeroDiv {
     width: 375px;
     max-height: 670.4px;
-    padding: 20px 0px 30px 0px;
+    padding: 20px 0px 45px 0px;
     /* display: flex; */
     gap: 24px;
     background-color: #0F1014;
@@ -23,8 +23,8 @@
     height: 60px;
     /* border: 1px solid white; */
     margin-top: 0;
-    font-family: sans-serif;
-    font-size: 24px;
+    font-family: 'FONTSPRING DEMO - Roca One Rg', sans-serif;
+    font-size: 25px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;

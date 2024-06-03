@@ -1,9 +1,17 @@
+/* src/assets/fonts/fonts.css */
+@font-face {
+    font-family: 'FONTSPRING DEMO - Roca One Rg';
+    src: url('./Roca\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 body {
     margin: 0;
 }
 
 .app-container {
-    width: 375px;
+    width: auto;
+    max-width: 375px;
     height: auto;
     margin: auto;
 }

@@ -177,7 +177,9 @@
     line-height: 17px;
     color: #FAFAFA;
 }
-
+.footer-apply-button:hover{
+    cursor: pointer;
+}
 .social-medial-links {
     display: flex;
     flex-direction: row;
