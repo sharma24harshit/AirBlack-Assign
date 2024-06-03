@@ -1,39 +1,150 @@
-.topDiv{
-    /* position: relative; */
+.top-section-main-container {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 24px;
+    isolation: isolate;
     width: 375px;
-    height: 124px;
-gap: 0px;
-opacity: 0px;
+    height: 122px;
+    background: #FFFFFF;
+    overflow: hidden;
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+.topSection-img-top-layer{
+position: absolute;
+width: 375px;
+height: 124px;
 background: #000000;
 }
-
-.logoDiv{
+.top-section-img-div {
+    border: 2px solid red;
+     position: absolute;
+    width: 510.42px;
+height: 375px;
+top: -0.43px;
+left: -67.71px;
+opacity: 0.2;
+}
+.img-01,
+.img-02,
+.img-03,
+.img-04,
+.img-05,
+.img-06,
+.img-07,
+.img-08,
+.img-09,
+.img-10,
+.img-11,
+.img-12{
     position: absolute;
-    width: 327px;
-height: 52.44px;
-top: 36px;
-left: 24px;
+    width: 125px;
+    height: 125px;
+}
+
+.img-01 {
+    left: 0px;
+    top: 0px;
+}
+
+.img-01>img,
+.img-02>img,
+.img-03>img,
+.img-04>img,
+.img-05>img,
+.img-06>img,
+.img-07>img,
+.img-08>img,
+.img-09>img,
+.img-10>img,
+.img-11>img,
+.img-12>img {
+    object-fit: contain;
+    width: 125px;
+    height: 125px;
+}
+
+.img-02 {
+    left: 125px;
+    top: 0px;
+}
+
+.img-03 {
+    left: 250px;
+    top: 0px;
+}
+
+.img-04 {
+    left: 375px;
+    top: 0px;
+}
+
+.img-05 {
+    left: 0px;
+    top: 125px;
+}
+
+.img-06 {
+    top: 125px;
+    left: 125px;
+}
+
+.img-07 {
+    top: 125px;
+    left: 250px;
+}
+
+.img-08 {
+    top: 125px;
+    left: 375px;
+}
+
+.img-09 {
+    top: 250px;
+    left: 0px;
+}
+.img-10 {
+    top: 250px;
+    left: 125px;
+}
+.img-11 {
+    top: 250px;
+    left: 250px;
+}
+.img-12 {
+    top: 250px;
+    left: 375px;
+}
+ /* img css end */
+
+ .top-logo-text-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
 gap: 12px;
-border: 1px solid white;
-}
-.topLogo{
-    margin: auto;
-    width: 68.66px;
-    height: 28.44px;
-    border: 1px solid white;
-}
-.topText{
-    margin: auto;
-    /* position: absolute;
-    bottom: 0; */
-    width: 68px;
+position: absolute;
+width: 327px;
+height: 52.44px;
+left: 24px;
+top: calc(50% - 52.44px/2 + 0.22px);
+ }
+ .top-logo-text-box>p{
+width: 68px;
 height: 12px;
-font-family: Inter;
-font-size: 10px;
+font-family: 'Inter';
+font-style: normal;
 font-weight: 500;
-line-height: 12.1px;
-letter-spacing: 2.231907844543457px;
-text-align: left;
-color: #FFFFFF;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 2.23191px;
 text-transform: uppercase;
-}
+color: #FFFFFF;
+ }
