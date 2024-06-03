@@ -9,8 +9,8 @@ const Certificate = () => {
           <path d="M30.254 3.0541L31.5 0.732666L31.5 6.34817L30.254 4.02673V3.0541ZM1.90735e-06 3.05411L30.3786 3.0541V4.02673L1.90735e-06 4.02674V3.05411Z" fill="url(#paint0_linear_1_341)" />
           <defs>
             <linearGradient id="paint0_linear_1_341" x1="31.5" y1="3.54042" x2="0" y2="3.54042" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#E74D85" />
-              <stop offset="1" stop-color="#E74D85" stop-opacity="0" />
+              <stop stopColor="#E74D85" />
+              <stop offset="1" stopColor="#E74D85" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>
@@ -22,8 +22,8 @@ const Certificate = () => {
           <path d="M1.74598 3.0541L0.5 0.732666L0.5 6.34817L1.74598 4.02673V3.0541ZM32 3.05411L1.62138 3.0541V4.02673L32 4.02674V3.05411Z" fill="url(#paint0_linear_1_343)" />
           <defs>
             <linearGradient id="paint0_linear_1_343" x1="0.5" y1="3.54042" x2="32" y2="3.54042" gradientUnits="userSpaceOnUse">
-              <stop stop-color="#E74D85" />
-              <stop offset="1" stop-color="#E74D85" stop-opacity="0" />
+              <stop stopColor="#E74D85" />
+              <stop offset="1" stopColor="#E74D85" stopOpacity="0" />
             </linearGradient>
           </defs>
         </svg>

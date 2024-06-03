@@ -47,22 +47,22 @@
     max-width: 166.16px;
     height: auto;
     max-height: 24.22px;
-    padding: 0px 11.08px 0px 11.08px;
+    padding: 0px 12.08px 0px 12.08px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 7px;
-    border-radius: 5px 0px 0px 0px;
+    border-radius: 5px;
     background: #FFFFFF24;
 }
 
 .rating-section>div:first-child>p {
     /* border: 1px solid white;  */
-    width: 128px;
+    width: 133px;
     height: 14px;
     padding: 0.82px 0px 0.18px 0px;
     font-family: 'Proxima Nova', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 12.36px;
     text-align: left;
@@ -70,7 +70,7 @@
 }
 
 .rating-section>div:last-child {
-    width: 83px;
+    width: 86px;
     height: 15.99px;
     display: flex;
     justify-content: center;
@@ -79,11 +79,12 @@
 }
 
 .rating-section>div:last-child>p {
-    width: 68px;
+    /* border: 1px solid white;  */
+    width: 74px;
     height: 15.99px;
     padding: 0.3px 0px 0.69px 0px;
     font-family: 'Proxima Nova', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 14.4px;
     text-align: right;
