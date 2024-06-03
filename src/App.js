@@ -7,13 +7,13 @@ import ApplySection from './Components/ApplySection/ApplySection';
 
 function App() {
   return (
-   <>
-   <TopSection/>
-   <FormSection/>
-   <ApplySection/>
-   <Certificate/>
-   <Footer/>
-   </>
+    <div className='app-container'>
+      <TopSection />
+      <FormSection />
+      <ApplySection />
+      <Certificate />
+      <Footer />
+    </div>
   );
 }
 

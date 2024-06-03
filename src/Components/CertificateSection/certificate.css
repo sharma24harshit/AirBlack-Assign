@@ -1,44 +1,47 @@
-.certificate-section-main-container{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 30px 0px;
-gap: 14px;
-width: 375px;
-height: 416px;
-background: #000000;
-flex: none;
-order: 3;
-flex-grow: 0;
+.certificate-section-main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    gap: 14px;
+    width: 375px;
+    height: 416px;
+    background: #000000;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
 }
-.certificate-section-title{
+
+.certificate-section-title {
     /* border: 1px solid white; */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 25px;
-width: 327px;
-height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 327px;
+    height: 90px;
 }
-.certificate-section-title>p{
-width: 214px;
-height: 90px;
-font-family: 'FONTSPRING DEMO - Roca One Rg';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-text-align: center;
-color: #F5F5F5;
-text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0484594);
-color: #F5F5F5;
+
+.certificate-section-title>p {
+    width: 214px;
+    height: 90px;
+    font-family: 'FONTSPRING DEMO - Roca One Rg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #F5F5F5;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0484594);
+    color: #F5F5F5;
 }
-.certificate-img{
+
+.certificate-img {
     width: 361px;
-height: 252px;
-object-fit: cover;
+    height: 252px;
+    object-fit: cover;
 
 }

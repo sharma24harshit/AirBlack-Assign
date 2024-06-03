@@ -17,23 +17,26 @@
     align-self: stretch;
     flex-grow: 0;
 }
-.img-top-layer{
-position: absolute;
-width: 375px;
-height: 375px;
-left: calc(50% - 375px/2);
-top: calc(50% - 375px/2 - 0.4px);
-background: #000000;
+
+.img-top-layer {
+    position: absolute;
+    width: 375px;
+    height: 375px;
+    left: calc(50% - 375px/2);
+    top: calc(50% - 375px/2 - 0.4px);
+    background: #000000;
 }
+
 .img-div {
     border: 2px solid red;
-     position: absolute;
+    position: absolute;
     width: 510.42px;
-height: 375px;
-top: -0.43px;
-left: -67.71px;
-opacity: 0.2;
+    height: 375px;
+    top: -0.43px;
+    left: -67.71px;
+    opacity: 0.2;
 }
+
 .img-01,
 .img-02,
 .img-03,
@@ -45,7 +48,7 @@ opacity: 0.2;
 .img-09,
 .img-10,
 .img-11,
-.img-12{
+.img-12 {
     position: absolute;
     width: 125px;
     height: 125px;
@@ -112,78 +115,86 @@ opacity: 0.2;
     top: 250px;
     left: 0px;
 }
+
 .img-10 {
     top: 250px;
     left: 125px;
 }
+
 .img-11 {
     top: 250px;
     left: 250px;
 }
+
 .img-12 {
     top: 250px;
     left: 375px;
 }
- /* img css end */
 
- .footer-text{
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px 0px 0.79px;
-width: 195px;
-height: 90.79px;
-flex: none;
-order: 1;
-flex-grow: 0;
-z-index: 1;
+/* img css end */
 
-font-family: 'FONTSPRING DEMO - Roca One Rg';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
-text-align: center;
-color: #FFFFFF;
-text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0484594);
- }
- .footer-apply-button{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 9.09px 43.36px 9.11px;
-width: 296.72px;
-height: 36px;
-background: linear-gradient(90.32deg, #F56563 0%, #E54988 100%);
-border-radius: 4px;
-border: 0;
-flex: none;
-order: 2;
-flex-grow: 0;
-z-index: 2;
-font-family: 'Proxima Nova', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 17px;
-color: #FAFAFA;
- }
- .social-medial-links{
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 0px;
-gap: 17.35px;
-width: 186.02px;
-height: 34px;
-flex: none;
-order: 3;
-flex-grow: 0;
-z-index: 3;
- }
- .facebook-logo,.twitter-logo{
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0px 0.79px;
+    width: 195px;
+    height: 90.79px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    z-index: 1;
+
+    font-family: 'FONTSPRING DEMO - Roca One Rg';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0484594);
+}
+
+.footer-apply-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9.09px 43.36px 9.11px;
+    width: 296.72px;
+    height: 36px;
+    background: linear-gradient(90.32deg, #F56563 0%, #E54988 100%);
+    border-radius: 4px;
+    border: 0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    z-index: 2;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FAFAFA;
+}
+
+.social-medial-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17.35px;
+    width: 186.02px;
+    height: 34px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    z-index: 3;
+}
+
+.facebook-logo,
+.twitter-logo {
     z-index: 3;
     width: 32.98px;
-height: 33px;
- }
+    height: 33px;
+}
