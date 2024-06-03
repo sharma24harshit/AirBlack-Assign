@@ -6,7 +6,3 @@ This project is built using React.
 
 - **Netlify:** [Your Netlify Deployment Link](#)
 - **Vercel:** [Your Vercel Deployment Link](#)
-
-## Contact
-
-Name - Harshit Sharma
